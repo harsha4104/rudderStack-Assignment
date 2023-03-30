@@ -1,10 +1,9 @@
-package com.rudderstack.source.service.impl;
+package com.rudderstack.assignment.service.impl;
 
-import com.rudderstack.source.dao.SourceDao;
-import com.rudderstack.source.exception.RudderStackException;
-import com.rudderstack.source.model.Source;
-import com.rudderstack.source.model.Template;
-import com.rudderstack.source.service.SourceService;
+import com.rudderstack.assignment.dao.SourceDao;
+import com.rudderstack.assignment.exception.RudderStackException;
+import com.rudderstack.assignment.model.Source;
+import com.rudderstack.assignment.service.SourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

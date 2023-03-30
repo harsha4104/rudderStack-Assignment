@@ -1,4 +1,4 @@
-package com.rudderstack.source.exception;
+package com.rudderstack.assignment.exception;
 
 import lombok.Getter;
 

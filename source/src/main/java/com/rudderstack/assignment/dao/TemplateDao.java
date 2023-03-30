@@ -1,6 +1,6 @@
-package com.rudderstack.source.dao;
+package com.rudderstack.assignment.dao;
 
-import com.rudderstack.source.model.Template;
+import com.rudderstack.assignment.model.Template;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface TemplateDao extends JpaRepository<Template, Integer> {

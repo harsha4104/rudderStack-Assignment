@@ -1,10 +1,10 @@
-package com.rudderstack.source.controller;
+package com.rudderstack.assignment.controller;
 
-import com.rudderstack.source.dto.SourceDto;
-import com.rudderstack.source.exception.RudderStackException;
-import com.rudderstack.source.model.Source;
-import com.rudderstack.source.response.APIResponseGeneric;
-import com.rudderstack.source.service.SourceService;
+import com.rudderstack.assignment.dto.SourceDto;
+import com.rudderstack.assignment.exception.RudderStackException;
+import com.rudderstack.assignment.model.Source;
+import com.rudderstack.assignment.response.APIResponseGeneric;
+import com.rudderstack.assignment.service.SourceService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

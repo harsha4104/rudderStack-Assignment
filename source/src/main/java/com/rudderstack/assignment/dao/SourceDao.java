@@ -1,6 +1,6 @@
-package com.rudderstack.source.dao;
+package com.rudderstack.assignment.dao;
 
-import com.rudderstack.source.model.Source;
+import com.rudderstack.assignment.model.Source;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

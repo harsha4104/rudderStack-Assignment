@@ -1,4 +1,4 @@
-package com.rudderstack.source;
+package com.rudderstack.assignment;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

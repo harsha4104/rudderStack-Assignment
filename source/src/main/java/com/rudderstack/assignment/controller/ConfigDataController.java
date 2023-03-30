@@ -1,9 +1,8 @@
-package com.rudderstack.source.controller;
+package com.rudderstack.assignment.controller;
 
-import com.rudderstack.source.dto.TemplateDto;
-import com.rudderstack.source.exception.RudderStackException;
-import com.rudderstack.source.response.APIResponseGeneric;
-import com.rudderstack.source.service.ConfigDataService;
+import com.rudderstack.assignment.exception.RudderStackException;
+import com.rudderstack.assignment.response.APIResponseGeneric;
+import com.rudderstack.assignment.service.ConfigDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -1,4 +1,4 @@
-package com.rudderstack.source.model;
+package com.rudderstack.assignment.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import jakarta.persistence.*;

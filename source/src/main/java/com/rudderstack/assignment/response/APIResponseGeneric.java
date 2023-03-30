@@ -1,4 +1,4 @@
-package com.rudderstack.source.response;
+package com.rudderstack.assignment.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

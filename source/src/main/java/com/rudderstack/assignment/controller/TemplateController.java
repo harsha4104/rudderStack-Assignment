@@ -1,13 +1,10 @@
-package com.rudderstack.source.controller;
+package com.rudderstack.assignment.controller;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rudderstack.source.dto.SourceDto;
-import com.rudderstack.source.dto.TemplateDto;
-import com.rudderstack.source.exception.RudderStackException;
-import com.rudderstack.source.response.APIResponseGeneric;
-import com.rudderstack.source.service.TemplateService;
+import com.rudderstack.assignment.dto.TemplateDto;
+import com.rudderstack.assignment.exception.RudderStackException;
+import com.rudderstack.assignment.response.APIResponseGeneric;
+import com.rudderstack.assignment.service.TemplateService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

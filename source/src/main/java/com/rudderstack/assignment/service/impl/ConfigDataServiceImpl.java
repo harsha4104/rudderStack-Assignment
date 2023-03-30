@@ -1,16 +1,16 @@
-package com.rudderstack.source.service.impl;
+package com.rudderstack.assignment.service.impl;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.rudderstack.source.dao.SourceConfigDataDao;
-import com.rudderstack.source.dao.SourceDao;
-import com.rudderstack.source.dao.TemplateDao;
-import com.rudderstack.source.dto.FieldDto;
-import com.rudderstack.source.exception.RudderStackException;
-import com.rudderstack.source.model.Source;
-import com.rudderstack.source.model.SourceConfigData;
-import com.rudderstack.source.model.Template;
-import com.rudderstack.source.service.ConfigDataService;
+import com.rudderstack.assignment.dao.SourceConfigDataDao;
+import com.rudderstack.assignment.dao.SourceDao;
+import com.rudderstack.assignment.dao.TemplateDao;
+import com.rudderstack.assignment.dto.FieldDto;
+import com.rudderstack.assignment.exception.RudderStackException;
+import com.rudderstack.assignment.model.Source;
+import com.rudderstack.assignment.model.SourceConfigData;
+import com.rudderstack.assignment.model.Template;
+import com.rudderstack.assignment.service.ConfigDataService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;

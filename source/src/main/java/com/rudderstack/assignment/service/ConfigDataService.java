@@ -1,7 +1,7 @@
-package com.rudderstack.source.service;
+package com.rudderstack.assignment.service;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.rudderstack.source.exception.RudderStackException;
+import com.rudderstack.assignment.exception.RudderStackException;
 
 import java.util.Map;
 
