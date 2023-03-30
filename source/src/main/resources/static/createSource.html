@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add a Source</title>
+    <style>
+		form {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		label, input {
+			margin-bottom: 10px;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			font-size: 16px;
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+<form id="addSourceForm">
+    <label for="source">Source:</label>
+    <input type="text" id="source" name="source" required>
+    <input type="submit" value="Add Source">
+</form>
+
+<script>
+		const addSourceForm = document.getElementById('addSourceForm');
+		addSourceForm.addEventListener('submit', event => {
+			event.preventDefault();
+
+			const sourceInput = document.getElementById('source');
+			const source = sourceInput.value;
+
+			const apiUrl = 'http://localhost:8080/v1/source';
+			const requestObject = {
+				method: 'POST',
+				headers: {
+					'Content-Type': 'application/json'
+				},
+				body: JSON.stringify({
+					"name": source
+				})
+			};
+
+			fetch(apiUrl, requestObject)
+				.then(response => {
+					if (response.ok) {
+						alert('Source added successfully!');
+						sourceInput.value = '';
+					} else {
+						alert('There was an error adding the source. Please try again.');
+					}
+				})
+				.catch(error => {
+					console.error(error);
+					alert('There was an error adding the source. Please try again.');
+				});
+		});
+	</script>
+</body>
+</html>
